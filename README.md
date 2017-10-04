@@ -1,3 +1,6 @@
-docker images - список образов<br>
-docker -ps -a - список контейнеров<br>
-docker-compose - для компоновки образов<br>
+Список образов<br>
+docker images<br>
+Список контейнеров<br>
+docker -ps -a<br>
+Для компоновки образов<br>
+docker-compose<br>
