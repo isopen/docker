@@ -2,7 +2,7 @@
 docker images<br><br>
 Список контейнеров<br>
 docker -ps -a<br><br>
-Для компоновки образов<br>
+Компановка образов<br>
 docker-compose<br><br>
 Удалить контейнер<br>
 docker rm <контейнер><br><br>
