@@ -9,5 +9,5 @@ COPY . /td
 WORKDIR /td
 RUN mkdir build
 WORKDIR build
-RUN cmake ..
+RUN cmake -DCMAKE_BUILD_TYPE=Release ..
 RUN cmake --build .
