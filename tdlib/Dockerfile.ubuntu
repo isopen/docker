@@ -10,4 +10,4 @@ WORKDIR /td
 RUN mkdir build
 WORKDIR build
 RUN cmake -DCMAKE_BUILD_TYPE=Release ..
-RUN make -j 2
+RUN cmake --build .
