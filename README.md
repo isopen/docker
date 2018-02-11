@@ -1,10 +1,1 @@
-Список образов<br>
-docker images<br><br>
-Список контейнеров<br>
-docker -ps -a<br><br>
-Компановка образов<br>
-docker-compose<br><br>
-Удалить контейнер<br>
-docker rm <контейнер><br><br>
-Удалить образ<br>
-docker rmi <образ><br><br>
+Here is a trash can for projects assembled using a docker.
