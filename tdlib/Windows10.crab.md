@@ -10,7 +10,7 @@
 <code>C:\src\vcpkg> .\vcpkg install openssl zlib</code><br>
 
 - [gperf](https://sourceforge.net/projects/gnuwin32/files/gperf/3.0.1/)<br>
-Панель управления->Дополнительные параметры системы->Переменные среды->Системные переменные<br>
+<code>Панель управления->Дополнительные параметры системы->Переменные среды->Системные переменные</code><br>
 Если Path уже есть, то добавить в него путь до gperf.exe. Если нет, то создать Path с маршрутом до gperf.exe<br>
 Например: <code>C:\Program Files (x86)\GnuWin32\bin</code><br>
 Внимание! Не затрите уже существующие маршруты Path. Были примеры [#20](https://github.com/tdlib/td/issues/20)
