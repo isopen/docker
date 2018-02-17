@@ -21,6 +21,6 @@
 Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code>
 
 - Если накосячили и возникают ошибки:<br>
-Could not find Windows SDK. [Скачать и установить](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)<br>
-Error 171,5. Проверяйте путь до gperf<br>
-English language not found. Выберите и установите в VS языковой пакет английского языка [#80](https://github.com/tdlib/td/issues/80)
+.Could not find Windows SDK. [Скачать и установить](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)<br>
+.C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj] Проверяйте путь до gperf [#20](https://github.com/tdlib/td/issues/20)<br>
+.English language not found. Выберите и установите в VS языковой пакет английского языка [#80](https://github.com/tdlib/td/issues/80)
