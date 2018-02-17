@@ -23,4 +23,4 @@
 - Если накосячили и возникают ошибки:<br>
 Could not find Windows SDK. [скачать и установить](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)<br>
 Error 171,5. Проверяйте путь до gperf<br>
-English language not found. Выберите и установите в VS языковой пакет английского языка
+English language not found. Выберите и установите в VS языковой пакет английского языка [#80](https://github.com/tdlib/td/issues/80)
