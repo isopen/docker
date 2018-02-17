@@ -20,7 +20,7 @@
 Например: <code>C:\Program Files (x86)\CMake\bin</code><br>
 Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code>
 
-- Если накосячили и возникают ошибки:<br><br>
+- Если накосячили:<br><br>
 <code>Could not find Windows SDK.  </code> [#20](https://github.com/tdlib/td/issues/20) [Скачать и установить](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)<br><br>
 <code>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj]</code> Проверяйте путь до gperf [#20](https://github.com/tdlib/td/issues/20)<br><br>
 <code>English language not found.</code> Выбрать и установить в Visual Studio Installer языковой пакет английского языка [#80](https://github.com/tdlib/td/issues/80)
