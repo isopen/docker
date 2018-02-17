@@ -1,8 +1,8 @@
 - [git](https://git-scm.com/)
 
 - <a href="https://www.visualstudio.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=15">VS 2017</a><br>
-Рабочие нагрузки: разработка приложений для универсальной платформы Windows, разработка классических приложений на C++<br>
-Языковые пакеты: английский
+Рабочие нагрузки: <code>разработка приложений для универсальной платформы Windows, разработка классических приложений на C++</code><br>
+Языковые пакеты: <code>английский</code>
 
 - <code>git clone https://github.com/Microsoft/vcpkg.git</code><br>
 <code>C:\src\vcpkg> .\bootstrap-vcpkg.bat</code><br>
