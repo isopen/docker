@@ -28,4 +28,10 @@
 <code>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj]</code> Проверяйте путь до gperf <a href="https://github.com/tdlib/td/issues/20">#20</a><br><br>
 <code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет<a href="https://github.com/tdlib/td/issues/80">#80</a></details><br>
 
+<details><summary>Если не помогло</summary>
+- переустановить windows и попробовать ещё раз<br>
+- установить Linux и попробовать простой план с Docker<br>
+Например: ветки Debian, Ubuntu
+</details><br>
+
 English [pretdlib](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
