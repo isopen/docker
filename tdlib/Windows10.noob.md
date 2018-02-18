@@ -48,4 +48,8 @@
 </ul>
 </details><br>
 
+<details><summary>Если помогло</summary>
+Можете запустить отладку в Visual Studio (td\build\ALL_BUILD.vcxproj)
+</details><br>
+
 English [pretdlib](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
