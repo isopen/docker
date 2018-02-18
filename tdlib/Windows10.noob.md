@@ -16,6 +16,8 @@
 Например: <code>C:\Program Files (x86)\GnuWin32\bin</code><br>
 Внимание! Не затрите уже существующие маршруты Path. Были примеры [#20](https://github.com/tdlib/td/issues/20)
 
+- [readline](https://sourceforge.net/projects/gnuwin32/files/readline/5.0-1/)
+
 - [cmake](https://cmake.org/)<br>
 Автоматически пропишется в Path. Если нет, то добавьте путь до cmake в Path.<br>
 Например: <code>C:\Program Files (x86)\CMake\bin</code><br>
