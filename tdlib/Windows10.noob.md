@@ -42,9 +42,10 @@
 <details><summary>Если не помогло</summary>
 <ul>
   <li> переустановить windows и попробовать ещё раз</li>
-  <li>установить Linux и попробовать простой план с <a href="https://github.com/isopen/docker/tree/master/tdlib">Docker</a></li>
+  <li>установить Linux и попробовать простой план с <a href="https://github.com/isopen/docker/tree/master/tdlib">Docker</a><br>
+    Например: ветки Debian, Ubuntu
+</li>
 </ul>
-Например: ветки Debian, Ubuntu
 </details><br>
 
 English [pretdlib](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
