@@ -23,6 +23,8 @@
 
 - [readline](https://sourceforge.net/projects/gnuwin32/files/readline/5.0-1/)
 
+- [make](https://sourceforge.net/projects/gnuwin32/files/make/)
+
 <details><summary>Если накосячили</summary><br>
 <code>Could not find Windows SDK.  </code> <a href="https://github.com/tdlib/td/issues/20">#20</a> <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk">Скачать и установить</a><br>
 Переустановить vcpkg и пакеты<br><br>
