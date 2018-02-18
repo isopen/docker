@@ -29,8 +29,10 @@
 <code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет<a href="https://github.com/tdlib/td/issues/80">#80</a></details><br>
 
 <details><summary>Если не помогло</summary>
-- переустановить windows и попробовать ещё раз<br>
-- установить Linux и попробовать простой план с Docker<br>
+<ul>
+  <li> переустановить windows и попробовать ещё раз</li>
+  <li>установить Linux и попробовать простой план с Docker</li>
+</ul>
 Например: ветки Debian, Ubuntu
 </details><br>
 
