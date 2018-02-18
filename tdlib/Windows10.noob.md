@@ -1,5 +1,5 @@
 - [git](https://git-scm.com/)<br>
-Например: C:\Program Files\Git\bin
+Например: <code>C:\Program Files\Git\bin</code>
 
 - <a href="https://www.visualstudio.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=15">VS 2017</a><br>
 Рабочие нагрузки: <code>разработка приложений для универсальной платформы Windows, разработка классических приложений на C++</code><br>
