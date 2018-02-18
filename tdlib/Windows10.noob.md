@@ -50,6 +50,7 @@
 
 <details><summary>Если помогло</summary>
 <ul>
+  <li>Результат билда должен быть в папке C:\td\build\Release и/или C:\td\build\Debug. В зависимости конфигурации решения.</li>
   <li>Можете запустить отладку в <code>Visual Studio (td\build\ALL_BUILD.vcxproj)</code></li>
 </ul>
 </details><br>
