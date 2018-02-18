@@ -31,7 +31,7 @@
 <details><summary>Если не помогло</summary>
 <ul>
   <li> переустановить windows и попробовать ещё раз</li>
-  <li>установить Linux и попробовать простой план с Docker</li>
+  <li>установить Linux и попробовать простой план с <a href="https://github.com/isopen/docker/tree/master/tdlib">Docker</a></li>
 </ul>
 Например: ветки Debian, Ubuntu
 </details><br>
