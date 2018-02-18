@@ -1,3 +1,5 @@
+Обязательные пакеты:
+
 - [git](https://git-scm.com/)<br>
 Например: <code>C:\Program Files\Git\bin</code>
 
@@ -19,7 +21,9 @@
 - [cmake](https://cmake.org/)<br>
 Автоматически пропишется в Path. Если нет, то добавьте путь до cmake в Path.<br>
 Например: <code>C:\Program Files (x86)\CMake\bin</code><br>
-Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code>
+Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code><br>
+
+Необязательные пакеты<br>
 
 - [readline](https://sourceforge.net/projects/gnuwin32/files/readline/5.0-1/)
 
