@@ -8,7 +8,7 @@
 - <code>git clone https://github.com/Microsoft/vcpkg.git</code><br>
 <code>C:\src\vcpkg> .\bootstrap-vcpkg.bat</code><br>
 <code>C:\src\vcpkg> .\vcpkg integrate install</code><br>
-<code>C:\src\vcpkg> .\vcpkg install openssl zlib</code><br>
+<code>C:\src\vcpkg> .\vcpkg install openssl zlib</code> и/или .\vcpkg --triplet x64-windows install openssl zlib<br>
 
 - [gperf](https://sourceforge.net/projects/gnuwin32/files/gperf/3.0.1/)<br>
 <code>Панель управления->Дополнительные параметры системы->Переменные среды->Системные переменные</code><br>
