@@ -21,8 +21,8 @@
 Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code>
 
 <details><summary>Если накосячили</summary><br>
-<code>Could not find Windows SDK.  </code> [#20](https://github.com/tdlib/td/issues/20) [Скачать и установить](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)<br><br>
-<code>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj]</code> Проверяйте путь до gperf [#20](https://github.com/tdlib/td/issues/20)<br><br>
-<code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет [#80](https://github.com/tdlib/td/issues/80)</details><br>
+<code>Could not find Windows SDK.  </code> <a href="https://github.com/tdlib/td/issues/20">#20</a> <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk">Скачать и установить</a><br><br>
+<code>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj]</code> Проверяйте путь до gperf <a href="https://github.com/tdlib/td/issues/20">#20</a><br><br>
+<code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет<a href="https://github.com/tdlib/td/issues/80">#80</a></details><br>
 
 English [pretdlib](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
