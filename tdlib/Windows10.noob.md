@@ -1,4 +1,4 @@
-- [git](https://git-scm.com/)
+- [git](https://git-scm.com/)<br>
 SET Path=C:\Program Files\Git\bin;%Path%
 
 - <a href="https://www.visualstudio.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=15">VS 2017</a><br>
