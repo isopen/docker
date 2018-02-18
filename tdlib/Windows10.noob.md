@@ -1,5 +1,5 @@
 - [git](https://git-scm.com/)<br>
-SET Path=C:\Program Files\Git\bin;%Path%
+Например: C:\Program Files\Git\bin
 
 - <a href="https://www.visualstudio.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=15">VS 2017</a><br>
 Рабочие нагрузки: <code>разработка приложений для универсальной платформы Windows, разработка классических приложений на C++</code><br>
