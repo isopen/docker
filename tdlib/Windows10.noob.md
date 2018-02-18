@@ -38,15 +38,13 @@
 <code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет<a href="https://github.com/tdlib/td/issues/80">#80</a><br><br>
 <a href="https://github.com/isopen/docker/blob/master/tdlib/32bit.wbuild.sh">32bit.wbuild.sh</a><br>
 <a href="https://github.com/isopen/docker/blob/master/tdlib/64bit.wbuild.sh">64bit.wbuild.sh</a></details>
-
 <details><summary>Если не помогло</summary>
 <ul>
   <li> переустановить windows и попробовать ещё раз</li>
   <li>установить Linux и попробовать простой план с <a href="https://github.com/isopen/docker/tree/master/tdlib">Docker</a><br>
     Например: ветки Debian, Ubuntu</li>
 </ul>
-</details><br>
-
+</details>
 <details><summary>Если помогло</summary>
 <ul>
   <li>Результат билда должен быть в папке <code>C:\td\build\Release</code> и/или <code>C:\td\build\Debug</code>. В зависимости конфигурации решения.</li>
