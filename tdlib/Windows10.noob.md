@@ -30,27 +30,4 @@
 
 - [make](https://sourceforge.net/projects/gnuwin32/files/make/)
 
-<details><summary>Если накосячили</summary><br>
-<code>Could not find Windows SDK.  </code> <a href="https://github.com/tdlib/td/issues/20">#20</a> <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk">Скачать и установить</a><br>
-Переустановить vcpkg и пакеты<br><br>
-<code>Could not find Powershell. </code> Прописать в Path.<br>
-Например: <code>C:\Windows\syswow64\Windowspowershell\v1.0</code><br><br>
-<code>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009. [C:\Users\Aliakbar\Desktop\td-master\td-master\build\tdutils\generate\tdmime_auto.vcxproj]</code> Проверяйте путь до gperf <a href="https://github.com/tdlib/td/issues/20">#20</a><br><br>
-<code>English language not found.</code> Выбрать и установить в Visual Studio Installer английский языковой пакет<a href="https://github.com/tdlib/td/issues/80">#80</a><br><br>
-<a href="https://github.com/isopen/docker/blob/master/tdlib/32bit.wbuild.sh">32bit.wbuild.sh</a><br>
-<a href="https://github.com/isopen/docker/blob/master/tdlib/64bit.wbuild.sh">64bit.wbuild.sh</a></details>
-<details><summary>Если не помогло</summary>
-<ul>
-  <li> переустановить windows и попробовать ещё раз</li>
-  <li>установить Linux и попробовать простой план с <a href="https://github.com/isopen/docker/tree/master/tdlib">Docker</a><br>
-    Например: ветки Debian, Ubuntu</li>
-</ul>
-</details>
-<details><summary>Если помогло</summary>
-<ul>
-  <li>Результат билда должен быть в папке <code>C:\td\build\Release</code> и/или <code>C:\td\build\Debug</code>. В зависимости от конфигурации решения.</li>
-  <li>Можете запустить отладку в <code>Visual Studio (td\build\ALL_BUILD.vcxproj)</code></li>
-</ul>
-</details><br>
-
 English [pretd](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
