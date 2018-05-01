@@ -29,5 +29,3 @@
 - [readline](https://sourceforge.net/projects/gnuwin32/files/readline/5.0-1/)
 
 - [make](https://sourceforge.net/projects/gnuwin32/files/make/)
-
-English [pretd](https://medium.com/@mrmakss635/preparing-packages-for-building-tdlib-on-windows-10-b5a4bf7c0815)
