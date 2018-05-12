@@ -7,7 +7,7 @@
 Рабочие нагрузки: <code>разработка приложений для универсальной платформы Windows, разработка классических приложений на C++</code><br>
 Языковые пакеты: <code>английский</code>
 
-- https://developer.microsoft.com/ru-ru/windows/downloads/windows-10-sdk
+- <a href="https://developer.microsoft.com/ru-ru/windows/downloads/windows-10-sdk">https://developer.microsoft.com/ru-ru/windows/downloads/windows-10-sdk</a><br>
 Скачать и установить windows 10 sdk
 
 - [cmake](https://cmake.org/)<br>
