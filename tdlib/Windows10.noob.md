@@ -7,6 +7,11 @@
 Рабочие нагрузки: <code>разработка приложений для универсальной платформы Windows, разработка классических приложений на C++</code><br>
 Языковые пакеты: <code>английский</code>
 
+- [cmake](https://cmake.org/)<br>
+Автоматически пропишется в Path. Если нет, то добавьте путь до cmake в Path.<br>
+Например: <code>C:\Program Files (x86)\CMake\bin</code><br>
+Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code><br>
+
 - <code>git clone https://github.com/Microsoft/vcpkg.git</code><br>
 <code>C:\src\vcpkg> .\bootstrap-vcpkg.bat</code><br>
 <code>C:\src\vcpkg> .\vcpkg integrate install</code><br>
@@ -18,11 +23,6 @@
 Если Path уже есть, то добавить в него путь до gperf.exe. Если нет, то создать Path с маршрутом до gperf.exe<br>
 Например: <code>C:\Program Files (x86)\GnuWin32\bin</code><br>
 Внимание! Не затрите уже существующие маршруты Path. Были примеры [#20](https://github.com/tdlib/td/issues/20)
-
-- [cmake](https://cmake.org/)<br>
-Автоматически пропишется в Path. Если нет, то добавьте путь до cmake в Path.<br>
-Например: <code>C:\Program Files (x86)\CMake\bin</code><br>
-Несколько маршрутов Path: <code>C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files (x86)\CMake\bin</code><br>
 
 Необязательные пакеты
 
