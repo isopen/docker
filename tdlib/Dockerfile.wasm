@@ -1,0 +1,48 @@
+FROM debian:9
+
+RUN apt-get -y update
+RUN apt-get install -y g++ ccache openssl cmake gperf make git libssl-dev libreadline-dev zlib1g zlib1g-dev wget
+RUN apt-get install -y python nodejs default-jre
+
+WORKDIR /
+RUN git clone https://github.com/tdlib/td.git
+RUN git clone https://github.com/juj/emsdk.git
+
+WORKDIR /emsdk
+RUN git pull
+RUN ./emsdk install latest
+RUN ./emsdk activate latest
+
+ENV OPENSSL openssl-1.0.2a
+ENV EXT tar.gz
+RUN wget https://www.openssl.org/source/${OPENSSL}.${EXT} && tar -xvzf ${OPENSSL}.${EXT}
+
+SHELL ["/bin/bash", "-c"]
+
+WORKDIR ${OPENSSL}
+RUN source ../emsdk_env.sh \
+    && emmake bash ./Configure no-asm no-apps no-ssl2 no-ssl3 no-comp no-hw no-engine no-deprecated no-dso --openssldir=built linux-generic64 \
+    && sed -i "s/CC= \$(CROSS_COMPILE)/&cc #/g" Makefile \
+    && sed -i "s/-D_REENTRANT -O3 -Wall/-D_REENTRANT -Wall/g" Makefile \
+    && make -j 1 \
+    && chmod -R 777 ../${OPENSSL} \
+    && exit
+
+WORKDIR /td
+RUN mkdir build
+WORKDIR build
+RUN cmake -DCMAKE_BUILD_TYPE=Release ..
+RUN make -j 4 && rm -rf *
+
+ENV OPENSSL_ROOT_DIR /emsdk/${OPENSSL}
+ENV OPENSSL_INCLUDE_DIR ${OPENSSL_ROOT_DIR}/include
+ENV OPENSSL_CRYPTO_LIBRARY ${OPENSSL_ROOT_DIR}/libcrypto.a
+ENV OPENSSL_SSL_LIBRARY ${OPENSSL_ROOT_DIR}/libssl.a
+RUN source ../../emsdk/emsdk_env.sh \
+    && emcmake cmake -DCMAKE_BUILD_TYPE=Release \
+    -DOPENSSL_INCLUDE_DIR=${OPENSSL_INCLUDE_DIR} \
+    -DOPENSSL_CRYPTO_LIBRARY=${OPENSSL_CRYPTO_LIBRARY} \
+    -DOPENSSL_SSL_LIBRARY=${OPENSSL_SSL_LIBRARY} \
+    -OPENSSL_LIBRARIES=${OPENSSL_SSL_LIBRARY} ${OPENSSL_CRYPTO_LIBRARY} \
+    .. \
+    && emmake make -j 4
