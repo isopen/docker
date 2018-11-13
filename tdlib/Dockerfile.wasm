@@ -21,7 +21,7 @@ SHELL ["/bin/bash", "-c"]
 
 WORKDIR ${OPENSSL}
 RUN source ../emsdk_env.sh \
-    && emmake bash ./Configure no-asm no-apps no-ssl2 no-ssl3 no-comp no-hw no-engine no-deprecated no-dso --openssldir=built linux-generic64 \
+    && emmake bash ./Configure no-asm no-apps no-ssl2 no-ssl3 no-comp no-hw no-engine no-deprecated no-dso --openssldir=built linux-generic32 \
     && sed -i "s/CC= \$(CROSS_COMPILE)/&cc #/g" Makefile \
     && sed -i "s/-D_REENTRANT -O3 -Wall/-D_REENTRANT -Wall/g" Makefile \
     && make -j 1 \
