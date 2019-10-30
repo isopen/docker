@@ -47,4 +47,4 @@ RUN source ../../emsdk/emsdk_env.sh \
     -OPENSSL_LIBRARIES=${OPENSSL_SSL_LIBRARY} ${OPENSSL_CRYPTO_LIBRARY} \
     ..
 RUN source ../../emsdk/emsdk_env.sh \
-     && emmake cmake --build . --target td_wasm
+    && emmake cmake --build . --target td_wasm
